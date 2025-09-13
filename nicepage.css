@@ -46126,24 +46126,9 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 50px;
+  min-height: 51px;
 }
 
-.u-footer .u-image-1 {
-  width: 33px;
-  height: 33px;
-  margin: 9px auto;
-}
-
-.u-footer .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-@media (max-width: 1199px) {
-  .u-footer .u-image-1 {
-    width: 33px;
-  }
-}
 
 
 
