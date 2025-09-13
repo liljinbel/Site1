@@ -46121,14 +46121,18 @@ a.u-link.u-text-hover-color-var:hover {
 
 
 
+ .u-footer {
+  background-image: none;
+}
+
 .u-footer .u-sheet-1 {
-  min-height: 92px;
+  min-height: 50px;
 }
 
 .u-footer .u-image-1 {
-  width: 48px;
-  height: 48px;
-  margin: 22px auto;
+  width: 33px;
+  height: 33px;
+  margin: 9px auto;
 }
 
 .u-footer .u-logo-image-1 {
@@ -46137,7 +46141,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-image-1 {
-    width: 48px;
+    width: 33px;
   }
 }
 
