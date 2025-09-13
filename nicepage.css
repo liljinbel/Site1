@@ -45615,6 +45615,7 @@ a.u-link.u-text-hover-color-var:hover {
         
         
         
+        
         }
 
         /** common-rules **/
@@ -45748,6 +45749,10 @@ a.u-link.u-text-hover-color-var:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-attachment: fixed;
         }
         .u-input
         {
@@ -46090,13 +46095,21 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 221px;
+}
+
+.u-header .u-menu-1 {
+  margin: 23px 15px 0 auto;
+}
+
+.u-header .u-nav-1 {
+  font-size: 1.25rem;
 }
 
 .u-header .u-image-1 {
   width: 54px;
   height: 54px;
-  margin: 13px auto 0;
+  margin: 23px auto 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46104,18 +46117,42 @@ a.u-link.u-text-hover-color-var:hover {
   height: 100%;
 }
 
-.u-header .u-menu-1 {
-  margin: -44px 15px 58px auto;
+.u-header .u-menu-2 {
+  margin: -43px auto 0 45px;
 }
 
-.u-header .u-nav-1 {
+.u-header .u-nav-3 {
   font-size: 1.25rem;
+}
+
+.u-header .u-search-1 {
+  height: auto;
+  width: 32px;
+  --open-duration: 0.35s;
+  --overlay-color: #000000;
+  --overlay-contrast-color: #ffffff;
+  min-height: 32px;
+  margin: -32px 45px 60px auto;
+}
+
+.u-header .u-search-icon-1 {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -44px;
     margin-right: 15px;
+  }
+
+  .u-header .u-menu-2 {
+    margin-top: -43px;
+  }
+
+  .u-header .u-search-1 {
+    width: 32px;
+    margin-top: -32px;
   }
 }
 
